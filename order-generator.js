@@ -74,7 +74,7 @@ const Menu = {
 	},
 };
 const INDIVIDUAL_ITEMS = [
-	"nachos", "ice coffee", "wolfbucket", "wolf soda", "wolf fries", "salted caramel", "first aid",
+	"nachos", "ice coffee", "wolf bucket", "wolf soda", "wolf fries", "salted caramel", "first aid",
 	"joints", "potatoes", "hot coffee",
 ];
 
