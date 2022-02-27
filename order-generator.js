@@ -3,8 +3,8 @@
 let darkmodeState;
 
 const Settings = {
-	'MAIN_TABLE_WIDTH': 4,
-	'COMBO_TABLE_WIDTH': 4,
+	'MAIN_TABLE_WIDTH': 3,
+	'COMBO_TABLE_WIDTH': 3,
 	'DEFAULT_MAX_CAP': 100,
 }
 
