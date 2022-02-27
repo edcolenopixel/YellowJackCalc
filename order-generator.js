@@ -19,21 +19,21 @@ const Menu = {
 	"Joints and Food:": {
 		header: true,
 	},
-	"TSG Joints": {
+	"Joints": {
 		price: 100,
-		items: ["tsg joints"],
+		items: ["joints"],
 	},
-	"TSG WolfBucket": {
+	"Wolf Bucket": {
 		price: 85,
-		items: ["tsg wolfbucket"],
+		items: ["wolf bucket"],
 	},
-	"TSG Nachos": {
+	"Nachos": {
 		price: 60,
-		items: ["tsg nachos"],
+		items: ["nachos"],
 	},
-	"TSG WolfFries": {
+	"Wolf Fries": {
 		price: 60,
-		items: ["tsg wolffries"],
+		items: ["wolf fries"],
 	},
 	// Individual Items:
 	"Drinks:": {
@@ -41,27 +41,27 @@ const Menu = {
 	},
 	"TSG WolfSoda": {
 		price: 50,
-		items: ["tsg wolfsoda"],
+		items: ["wolf soda"],
 	},
 	"TSG IceCoffee": {
 		price: 80,
-		items: ["tsg icecoffee"],
+		items: ["ice coffee"],
 	},
-	"TSG SaltedCaramel": {
+	"Salted Caramel": {
 		price: 50,
-		items: ["tsg saltedcaramel"],
+		items: ["salted caramel"],
 	},
 	"Medkit:": {
 		header: true,
 	},
-	"TSG FirstAid": {
+	"First Aid": {
 		price: 50,
-		items: ["tsg firstaid"],
+		items: ["first aid"],
 	},
 };
 const INDIVIDUAL_ITEMS = [
-	"tsg nachos", "tsg icecoffee", "tsg wolfbucket", "tsg wolfsoda", "tsg wolffries", "tsg saltedcaramel", "tsg firstaid",
-	"tsg joints", "tsg potatoes", "tsg hotcoffee",
+	"nachos", "ice coffee", "wolfbucket", "wolf soda", "wolf fries", "salted caramel", "first aid",
+	"joints", "potatoes", "hot coffee",
 ];
 
 const buttons = {
