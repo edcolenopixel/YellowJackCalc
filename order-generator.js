@@ -3,8 +3,8 @@
 let darkmodeState;
 
 const Settings = {
-	'MAIN_TABLE_WIDTH': 4,
-	'COMBO_TABLE_WIDTH': 4,
+	'MAIN_TABLE_WIDTH': 3,
+	'COMBO_TABLE_WIDTH': 3,
 	'DEFAULT_MAX_CAP': 100,
 }
 
@@ -23,17 +23,40 @@ const Menu = {
 		price: 100,
 		items: ["tsg joints"],
 	},
+	"TSG Wolf Bucket": {
+		price: 85,
+		items: ["tsg wolf bucket"],
+	},
 	"TSG Nachos": {
 		price: 60,
 		items: ["tsg nachos"],
+	},
+	"TSG Wolf Fries": {
+		price: 60,
+		items: ["tsg wolf fries"],
 	},
 	// Individual Items:
 	"Drinks:": {
 		header: true,
 	},
 	"TSG WolfSoda": {
-		price: 60,
+		price: 50,
 		items: ["tsg wolfsoda"],
+	},
+	"TSG Ice Coffee": {
+		price: 80,
+		items: ["tsg ice coffee"],
+	},
+	"TSG Salted Caramel": {
+		price: 50,
+		items: ["tsg salted caramel"],
+	},
+	"Medkit:": {
+		header: true,
+	},
+	"TSG First Aid": {
+		price: 50,
+		items: ["tsg first aid"],
 	},
 };
 const INDIVIDUAL_ITEMS = [
