@@ -54,9 +54,9 @@ const Menu = {
 	"Medkit:": {
 		header: true,
 	},
-	"TSG First Aid": {
+	"TSG FirstAid": {
 		price: 50,
-		items: ["tsg first aid"],
+		items: ["tsg firstaid"],
 	},
 };
 const INDIVIDUAL_ITEMS = [
