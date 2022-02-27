@@ -53,9 +53,9 @@ const Menu = {
 		price: 85,
 		items: ["burrito"],
 	},
-	"Potatoes": {
+	"Mashed Potatoes": {
 		price: 60,
-		items: ["potatoes"],
+		items: ["Mashed potatoes"],
 	},
 	// Individual Items:
 	"Drinks:": {
@@ -87,7 +87,7 @@ const Menu = {
 };
 const INDIVIDUAL_ITEMS = [
 	"nachos", "ice coffee", "wolf bucket", "wolf soda", "wolf fries", "salted caramel", "first aid",
-	"joints", "potatoes", "hot coffee", "burrito",
+	"joints", "mashed potatoes", "hot coffee", "burrito",
 ];
 
 const buttons = {
