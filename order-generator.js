@@ -53,10 +53,6 @@ const Menu = {
 		price: 85,
 		items: ["burrito"],
 	},
-	"Mashed Potatoes": {
-		price: 60,
-		items: ["Mashed potatoes"],
-	},
 	// Individual Items:
 	"Drinks:": {
 		header: true,
