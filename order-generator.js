@@ -69,6 +69,10 @@ const Menu = {
 		price: 50,
 		items: ["salted caramel"],
 	},
+	"Hot Coffee": {
+		price: 80,
+		items: ["hot coffee"],
+	},
 	"Medkit:": {
 		header: true,
 	},
