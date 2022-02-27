@@ -17,7 +17,7 @@ const Menu = {
 		price: 900,
 		items: ["joints", "joints", "joints", "joints", "joints", "joints", "joints", "joints", "joints", "joints", "joints", "joints", "joints"],
 	},
-	"TSG Smoke And Munch 3 Joints 3 nacho's": {
+	"TSG Smoke And Munch 3 Joints 3 nacho": {
 		price: 420,
 		items: ["joints", "joints", "joints", "nachos", "nachos", "nachos"],
 	},
