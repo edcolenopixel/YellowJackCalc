@@ -21,11 +21,11 @@ const Menu = {
 	},
 	"TSG Joints": {
 		price: 100,
-		items: ["tsgjoints"],
+		items: ["tsg joints"],
 	},
 	"TSG Nachos": {
 		price: 60,
-		items: ["tsgnachos"],
+		items: ["tsg nachos"],
 	},
 	// Individual Items:
 	"Drinks:": {
@@ -33,12 +33,12 @@ const Menu = {
 	},
 	"TSG Wolf Soda": {
 		price: 60,
-		items: ["tsgwolfsoda"],
+		items: ["tsg wolf soda"],
 	},
 };
 const INDIVIDUAL_ITEMS = [
-	"tsgnachos", "tsgwolfsoda", "Money Shot", "Torpedo", "Bleeder", "Water", "Meat Free",
-	"Fries", "Soda", "Rimjob", "Cream Pie", "Milkshake", "Toy", "Bloody Fingers", "Salad", "Orange Juice", "Lemonade", "Lucky Rings", "Mozz sticks", "Copium", "Bacon", "Oatmeal"
+	"tsg nachos", "tsg ice coffee", "tsg wolf bucket", "tsg wolf soda", "tsg wolf fries", "tsg salted caramel", "tsg first aid",
+	"tsg joints", "tsg potatoes", "tsg hot coffee",
 ];
 
 const buttons = {
