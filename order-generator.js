@@ -31,9 +31,9 @@ const Menu = {
 	"Drinks:": {
 		header: true,
 	},
-	"TSG Wolf soda": {
+	"TSG WolfSoda": {
 		price: 60,
-		items: ["tsg wolf soda"],
+		items: ["tsg wolfsoda"],
 	},
 };
 const INDIVIDUAL_ITEMS = [
