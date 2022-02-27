@@ -12,9 +12,23 @@ const Menu = {
 	// Combo Items:
 	"Combos": {
 		header: true,
-	
 	},
-	
+	"TSG High 13 Joints": {
+		price: 900,
+		items: ["joints", "joints", "joints", "joints", "joints", "joints", "joints", "joints", "joints", "joints", "joints", "joints", "joints"],
+	},
+	"TSG Smoke And Munch 3 Joints 3 nacho's": {
+		price: 420,
+		items: ["joints", "joints", "joints", "nachos", "nachos", "nachos"],
+	},
+	"TSG Feel Good 3 Joints 3 First Aid": {
+		price: 420,
+		items: ["joints", "joints", "joints", "first aid", "first aid", "first aid"],
+	},
+	"TSG Coffee And A Smoke 5 Coffee 5 Joints": {
+		price: 700,
+		items: ["joints", "joints", "joints", "joints", "joints", "ice coffee", "ice coffee", "ice coffee", ,"ice coffee", "ice coffee" ],
+	},
 	// Individual Items:
 	"Joints and Food:": {
 		header: true,
