@@ -37,7 +37,7 @@ const Menu = {
 	},
 };
 const INDIVIDUAL_ITEMS = [
-	"tsg nachos", "tsg ice coffee", "tsg wolf bucket", "tsg wolf soda", "tsg wolf fries", "tsg salted caramel", "tsg first aid",
+	"tsg nachos", "tsg ice coffee", "tsg wolf bucket", "tsg wolfsoda", "tsg wolf fries", "tsg salted caramel", "tsg first aid",
 	"tsg joints", "tsg potatoes", "tsg hot coffee",
 ];
 
