@@ -19,7 +19,7 @@ const Menu = {
 	},
 	"TSG Smoke And Munch 3 Joints 3 nacho": {
 		price: 420,
-		items: ["joints", "joints", "joints", "nachos", "nachos", "nachos"],
+		items: ["joints", "joints", "joints", "nachos", "nachos", "nachos" ],
 	},
 	"TSG Feel Good 3 Joints 3 First Aid": {
 		price: 360,
@@ -36,10 +36,6 @@ const Menu = {
 	"Joints": {
 		price: 100,
 		items: ["joints"],
-	},
-	"Wolf Bucket": {
-		price: 85,
-		items: ["wolf bucket"],
 	},
 	"Nachos": {
 		price: 60,
