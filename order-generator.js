@@ -75,7 +75,7 @@ function formatItems(items) {
 	INDIVIDUAL_ITEMS.forEach(item => {
 		let occ = getOccurrence(items, item);
 		let imageName = item.toLowerCase().replace(' ', '_');
-		let imageIcon = `<img src="images/${imageName}.png" title="${occ}x ${item}" width="30" height="30"> `
+		let imageIcon = `<img src="images/${imageName}.png" title="${occ}x ${item}" width="100" height="100"> `
 		if (occ > 0) newArray.push(`- ${occ}x ${imageIcon}${item}`);
 	});
 
