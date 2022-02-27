@@ -20,7 +20,7 @@ const Menu = {
 		header: true,
 	},
 	"TSG Joints": {
-		price: 60,
+		price: 100,
 		items: ["tsgjoints"],
 	},
 	"TSG Nachos": {
