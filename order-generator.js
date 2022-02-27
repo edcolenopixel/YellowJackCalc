@@ -22,7 +22,7 @@ const Menu = {
 		items: ["joints", "joints", "joints", "nachos", "nachos", "nachos"],
 	},
 	"TSG Feel Good 3 Joints 3 First Aid": {
-		price: 420,
+		price: 360,
 		items: ["joints", "joints", "joints", "first aid", "first aid", "first aid"],
 	},
 	"TSG Coffee And A Smoke 5 Coffee 5 Joints": {
