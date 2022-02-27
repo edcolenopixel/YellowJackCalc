@@ -41,6 +41,10 @@ const Menu = {
 		price: 60,
 		items: ["nachos"],
 	},
+	"Wolf Bucket": {
+		price: 85,
+		items: ["wolf bucket"],
+	},
 	"Wolf Fries": {
 		price: 60,
 		items: ["wolf fries"],
