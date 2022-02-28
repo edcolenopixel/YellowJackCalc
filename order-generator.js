@@ -29,6 +29,10 @@ const Menu = {
 		price: 700,
 		items: ["joints", "joints", "joints", "joints", "joints", "ice coffee", "ice coffee", "ice coffee", ,"ice coffee", "ice coffee" ],
 	},
+	"TSG The Alpha Wolf's Course": {
+		price: 750,
+		items: ["burrito", "burrito", "joints", "joints", "ice coffee", "ice coffee", ,"first aid", "first aid"],
+	},
 	// Individual Items:
 	"Joints and Food:": {
 		header: true,
