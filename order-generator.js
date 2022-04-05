@@ -9,89 +9,76 @@ const Settings = {
 }
 
 const Menu = {
-	// Combo Items:
-	"Combos": {
+	// Meals:
+	"Combos:": {
 		header: true,
 	},
-	"TSG High 13 Joints": {
-		price: 900,
-		items: ["joints", "joints", "joints", "joints", "joints", "joints", "joints", "joints", "joints", "joints", "joints", "joints", "joints"],
+	"Heart Attack": {
+		price: 230,
+		items: ["Dirty Fries", "Yellow Jack Heart Attack", "Lost MC Root Beer"],
 	},
-	"TSG Smoke And Munch 3 Joints 3 nacho": {
-		price: 420,
-		items: ["joints", "joints", "joints", "nachos", "nachos", "nachos" ],
+	"Gimme the 9's": {
+		price: 999,
+		items: ["Dirty Fries", "Dirty Fries", "Heart Attack", "Heart Attack", "Mamma's Chicken Wings", "Mamma's Chicken Wings", "Whiskey Tincture", "Whiskey Tincture", "Whiskey Tincture", "Whiskey Tincture", "Sweet Bourbon Tea", "Sweet Bourbon Tea", "Lost MC Root Beer", "Lost MC Root Beer"],
 	},
-	"TSG Feel Good 3 Joints 3 First Aid": {
-		price: 360,
-		items: ["joints", "joints", "joints", "first aid", "first aid", "first aid"],
-	},
-	"TSG Coffee And A Smoke 5 Coffee 5 Joints": {
-		price: 700,
-		items: ["joints", "joints", "joints", "joints", "joints", "ice coffee", "ice coffee", "ice coffee", ,"ice coffee", "ice coffee" ],
-	},
-	"TSG The Alpha Wolf's Course": {
-		price: 750,
-		items: ["burrito", "burrito", "joints", "joints", "ice coffee", "ice coffee", ,"first aid", "first aid"],
+	"Hungryman": {
+		price: 540,
+		items: ["Dirty Fries", "Dirty Fries", "Lost MC Root Beer", "Lost MC Root Beer", "Yellow Jack Heart Attack", "Yellow Jack Heart Attack", "Yellow Jack Heart Attack"],
 	},
 	// Individual Items:
-	"Joints and Food:": {
+	"Food": {
 		header: true,
 	},
-	"Joints": {
-		price: 100,
-		items: ["joints"],
-	},
-	"Nachos": {
-		price: 60,
-		items: ["nachos"],
-	},
-	"Wolf Bucket": {
-		price: 85,
-		items: ["wolf bucket"],
-	},
-	"Wolf Fries": {
-		price: 60,
-		items: ["wolf fries"],
-	},
-	"Burrito": {
-		price: 85,
-		items: ["burrito"],
-	},
-	"Mashed Potatoes": {
-		price: 60,
-		items: ["mashed potatoes"],
-	},
-	// Individual Items:
-	"Drinks:": {
-		header: true,
-	},
-	"Wolf Soda": {
-		price: 50,
-		items: ["wolf soda"],
-	},
-	"Ice Coffee": {
+	"Dirty Fries": {
 		price: 80,
-		items: ["ice coffee"],
+		items: ["Dirty Fries"],
 	},
-	"Salted Caramel": {
-		price: 50,
-		items: ["salted caramel"],
-	},
-	"Hot Coffee": {
+	"Yellow Jack Heart Attack": {
 		price: 80,
-		items: ["hot coffee"],
+		items: ["Yellow Jack Heart Attack"],
 	},
-	"Medkit:": {
+	"Mamma's Chicken Wings": {
+		price: 80,
+		items: ["Yellow Jack Heart Attack"],
+	},
+	"Medkit, Drinks and Cigs": {
 		header: true,
 	},
-	"First Aid": {
-		price: 50,
-		items: ["first aid"],
+	"Whiskey Tincture": {
+		price: 70,
+		items: ["Whiskey Tincture"],
+	},
+	"Sweet Bourbon Tea": {
+		price: 80,
+		items: ["Sweet Bourbon Tea"],
+	},
+	"Lost MC Root Beer": {
+		price: 70,
+		items: ["Lost MC Root Beer"],
+	},
+	"Beer": {
+		price: 60,
+		items: ["Beer"],
+	},
+	"Whiskey": {
+		price: 60,
+		items: ["Whiskey"],
+	},
+	"Vodka": {
+		price: 60,
+		items: ["Vodka"],
+	},
+	"Apparel": {
+		header: true,
+	},
+	"Lost MC Plushie": {
+		price: 70,
+		items: ["Lost MC Plushie"],
 	},
 };
 const INDIVIDUAL_ITEMS = [
-	"nachos", "ice coffee", "wolf bucket", "wolf soda", "wolf fries", "salted caramel", "first aid",
-	"joints", "mashed potatoes", "hot coffee", "burrito",
+	"Dirty Fries", "Yellow Jack Heart Attack", "Mamma's Chicken Wings", "Whiskey Tincture", "Sweet Bourbon Tea", "Lost MC Root Beer", "Lost MC Cigarettes",
+	"Lost MC Plushie", "Beer", "Whiskey", "Vodka",
 ];
 
 const buttons = {
