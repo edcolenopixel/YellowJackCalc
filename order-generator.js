@@ -107,7 +107,7 @@ const discounts = {
 	
 	"half_off": {
 		percent: .0,
-		desc: 'contact edwin to implement discounts',
+		desc: 'contact edwin cole to implement any discounts',
 	},
 
 };
