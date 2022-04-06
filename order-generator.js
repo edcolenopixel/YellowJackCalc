@@ -106,8 +106,8 @@ const buttons = {
 const discounts = {
 	
 	"half_off": {
-		percent: .50,
-		desc: '50% Discount (Items that are degraded)',
+		percent: .0,
+		desc: 'contact edwin to implement discounts',
 	},
 
 };
