@@ -75,14 +75,14 @@ const Menu = {
 	"Apparel": {
 		header: true,
 	},
-	"Lost MC Plushie": {
+	"Plushie": {
 		price: 70,
-		items: ["Lost MC Plushie"],
+		items: ["Plushie"],
 	},
 };
 const INDIVIDUAL_ITEMS = [
 	"Dirty Fries", "Heart Attack", "Chicken Wings", "Whiskey Tincture", "Sweet Tea", "Root Beer", "Cigarettes",
-	"Lost MC Plushie", "Beer", "Whiskey", "Vodka",
+	"Plushie", "Beer", "Whiskey", "Vodka",
 ];
 
 const buttons = {
