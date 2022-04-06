@@ -17,7 +17,7 @@ const Menu = {
 		price: 230,
 		items: ["Dirty Fries", "Heart Attack", "Root Beer"],
 	},
-	"Gimme the nines": {
+	"Gimme nines": {
 		price: 999,
 		items: ["Dirty Fries", "Dirty Fries", "Heart Attack", "Heart Attack", "Chicken Wings", "Chicken Wings", "Whiskey Tincture", "Whiskey Tincture", "Whiskey Tincture", "Whiskey Tincture", "Sweet Tea", "Sweet Tea", "Root Beer", "Root Beer"],
 	},
