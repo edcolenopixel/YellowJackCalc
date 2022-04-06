@@ -13,17 +13,17 @@ const Menu = {
 	"Combos:": {
 		header: true,
 	},
-	"Heart Attack": {
+	"HeartAttack Combo": {
 		price: 230,
-		items: ["Dirty Fries", "Yellow Jack Heart Attack", "Lost MC Root Beer"],
+		items: ["Dirty Fries", "Heart Attack", "Root Beer"],
 	},
 	"Gimme the 9's": {
 		price: 999,
-		items: ["Dirty Fries", "Dirty Fries", "Heart Attack", "Heart Attack", "Mamma's Chicken Wings", "Mamma's Chicken Wings", "Whiskey Tincture", "Whiskey Tincture", "Whiskey Tincture", "Whiskey Tincture", "Sweet Bourbon Tea", "Sweet Bourbon Tea", "Lost MC Root Beer", "Lost MC Root Beer"],
+		items: ["Dirty Fries", "Dirty Fries", "Heart Attack", "Heart Attack", "Chicken Wings", "Chicken Wings", "Whiskey Tincture", "Whiskey Tincture", "Whiskey Tincture", "Whiskey Tincture", "Sweet Tea", "Sweet Tea", "Root Beer", "Root Beer"],
 	},
 	"Hungryman": {
 		price: 540,
-		items: ["Dirty Fries", "Dirty Fries", "Lost MC Root Beer", "Lost MC Root Beer", "Yellow Jack Heart Attack", "Yellow Jack Heart Attack", "Yellow Jack Heart Attack"],
+		items: ["Dirty Fries", "Dirty Fries", "Root Beer", "Root Beer", "Heart Attack", "Heart Attack", "Heart Attack"],
 	},
 	// Individual Items:
 	"Food": {
@@ -33,13 +33,13 @@ const Menu = {
 		price: 80,
 		items: ["Dirty Fries"],
 	},
-	"Yellow Jack Heart Attack": {
+	"Heart Attack": {
 		price: 80,
-		items: ["Yellow Jack Heart Attack"],
+		items: ["Heart Attack"],
 	},
-	"Mamma's Chicken Wings": {
+	"Chicken Wings": {
 		price: 80,
-		items: ["Yellow Jack Heart Attack"],
+		items: ["Chicken Wings"],
 	},
 	"Medkit, Drinks and Cigs": {
 		header: true,
@@ -52,9 +52,9 @@ const Menu = {
 		price: 80,
 		items: ["Sweet Bourbon Tea"],
 	},
-	"Lost MC Root Beer": {
+	"Root Beer": {
 		price: 70,
-		items: ["Lost MC Root Beer"],
+		items: ["Root Beer"],
 	},
 	"Beer": {
 		price: 60,
@@ -77,7 +77,7 @@ const Menu = {
 	},
 };
 const INDIVIDUAL_ITEMS = [
-	"Dirty Fries", "Yellow Jack Heart Attack", "Mamma's Chicken Wings", "Whiskey Tincture", "Sweet Bourbon Tea", "Lost MC Root Beer", "Lost MC Cigarettes",
+	"Dirty Fries", "Heart Attack", "Chicken Wings", "Whiskey Tincture", "Sweet Tea", "Root Beer", "Cigarettes",
 	"Lost MC Plushie", "Beer", "Whiskey", "Vodka",
 ];
 
