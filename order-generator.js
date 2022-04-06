@@ -103,14 +103,6 @@ const buttons = {
 	}
 };
 
-const discounts = {
-	
-	"half_off": {
-		percent: .50,
-		desc: '50% Discount (Items that are degraded)',
-	},
-
-};
 
 function getOccurrence(array, value) {
 	return array.filter((v) => (v === value)).length;
