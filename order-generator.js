@@ -48,9 +48,9 @@ const Menu = {
 		price: 70,
 		items: ["Whiskey Tincture"],
 	},
-	"Sweet Bourbon Tea": {
+	"Sweet Tea": {
 		price: 80,
-		items: ["Sweet Bourbon Tea"],
+		items: ["Sweet Tea"],
 	},
 	"Root Beer": {
 		price: 70,
