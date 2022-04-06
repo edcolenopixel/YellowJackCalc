@@ -68,6 +68,10 @@ const Menu = {
 		price: 60,
 		items: ["Vodka"],
 	},
+	"Cigarettes": {
+		price: 60,
+		items: ["Cigarettes"],
+	},
 	"Apparel": {
 		header: true,
 	},
