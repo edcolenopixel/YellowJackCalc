@@ -9,220 +9,80 @@ const Settings = {
 }
 
 const Menu = {
-	// Combo Items:
-	"Combos": {
+	// Meals:
+	"Combos:": {
 		header: true,
 	},
-	"Murdershake": {
-		price: 300,
-		noDiscount: true,
-		emoji: '🍩',
-		items: ["Murder Meal", "Fries", "Fries", "Rimjob", "Milkshake", "Heartstopper"],
-		copypasta: '~o~ ~h~🍔MurderShake Meal🍩~n~~b~1 Mystery Burger, 2 Sides, 1 Milkshake, 1 Rimjob ~w~|~g~ $300',
+	"HeartAttack": {
+		price: 230,
+		items: ["Dirty Fries", "Heart Attack", "Root Beer"],
 	},
-	"Murder Meal": {
-		fileRenameException: true,
-		price: 250,
-		emoji: '🍔',
-		noDiscount: true,
-		items: ["Murder Meal", "Heartstopper", "Fries", "Soda"],
-		copypasta: '~o~ ~h~🍔MurderMeal🍔~n~ ~b~1 Mystery Burger, 1 Side, 1 Drink ~w~|~g~ $250',
+	"Gimme nines": {
+		price: 999,
+		items: ["Dirty Fries", "Dirty Fries", "Heart Attack", "Heart Attack", "Chicken Wings", "Chicken Wings", "Whiskey Tincture", "Whiskey Tincture", "Whiskey Tincture", "Whiskey Tincture", "Sweet Tea", "Sweet Tea", "Root Beer", "Root Beer"],
 	},
-	"Jackpot Meal": {
-		fileRenameException: true,
-		price: 700,
-		emoji: '💰',
-		items: ["Money Shot", "Lucky Rings", "Copium"],
-		copypasta: '~o~ ~h~🍔JackPot Meal💰~n~ ~b~1 Money Shot, 1 Lucky Rings, 1 Copium ~w~|~g~ $700',
-	},
-	"Running Man": {
-		price: 250,
-		emoji: '🏃',
-		items: ["Fries", "Fries", "Rimjob", "Rimjob", "Soda"],
-		copypasta: '~y~~h~🏃‍♂️Running Man Combo🏃‍♂️ ~n~~b~2 Fries, 2 Rimjobs, 1 Soda ~w~|~g~ $250',
-	},
-	"MilkShake and Fries": {
-		price: 200,
-		emoji: '🍟',
-		items: ["Fries", "Fries", "Milkshake", "Milkshake"],
-		copypasta:  '~p~~h~🍟🍨MilkShake and Fries Combo🍨🍟~n~~b~2 Fries & 2 Milkshakes ~w~|~g~ $200',
-	},
-	"Lucky Fisherman": {
-		price: 200,
-		emoji: '⛵',
-		items: ["Lucky Rings", "Lucky Rings", "Soda", "Soda"],
-		copypasta:  '~p~~h~⛵🧅Lucky Fisherman Combo🧅⛵~n~~b~2 Lucky Rings & 2 Drinks ~w~|~g~ $200',
-	},
-	"Salty Seaman": {
-		price: 200,
-		emoji: '🧂',
-		items: ["Fries", "Fries", "Soda", "Soda"],
-		copypasta:  '~p~~h~⛵🧂Salty Seaman Combo🧂⛵~n~~b~2 Fries & 2 Drinks ~w~|~g~ $200',
-	},
-	"Stretchy De-stress": {
-		price: 200,
-		emoji: '🧀',
-		items: ["Mozz sticks","Mozz sticks","Mozz sticks","Mozz sticks"],
-		copypasta:  '~y~ ~h~ 🧀Stretchy De-stress🧠 ~n~~b~ 4 Mozzarella Sticks ~w~|~g~ $200 ~r~LIMITED',
-	},
-	"Sweet Tooth": {
-		price: 162,
-		emoji: '🦷',
-		items: ["Milkshake", "Milkshake", "Cream Pie", "Cream Pie"],
-		copypasta:  '~g~~h~🦷🍬Sweet Tooth Combo🍬🦷~n~~b~2 Milkshakes & 2 Cream Pies ~w~|~g~ $162',
-	},
-	"Sugar Rush": {
-		price: 123,
-		emoji: '🍬',
-		items: ["Soda", "Cream Pie", "Rimjob"],
-		copypasta:  '💨🍬Sugar Rush Combo💨🍬~n~~b~1 Soda, 1 Cream Pie, 1 Rimjob ~w~|~g~ $123',
-	},
-	"Morning Glory": {
-		price: 150,
-		emoji: '☀️',
-		items: ["Oatmeal", "Bacon", "Milkshake"],
-		copypasta:  '~g~~h~ 🌄 Morning Glory Combo 🌄~n~~b~1 Oatmeal, 1 Bacon, 1 OJ ~w~|~g~ $150 ~r~LIMITED',
-	},
-	// Burger Meals:
-	"Burger Meals:": {
-		header: true,
-	},
-	"Heartstopper Meal": {
-		price: 175,
-		items: ["Heartstopper", "Fries", "Soda"],
-	},
-	"Money Shot Meal": {
-		price: 575,
-		items: ["Money Shot", "Fries", "Soda"],
-	},
-	"Bleeder Meal": {
-		price: 200,
-		items: ["Bleeder", "Fries", "Soda"],
+	"Hungryman": {
+		price: 540,
+		items: ["Dirty Fries", "Dirty Fries", "Root Beer", "Root Beer", "Heart Attack", "Heart Attack", "Heart Attack"],
 	},
 	// Individual Items:
-	"Burgers and Mains:": {
+	"Food": {
 		header: true,
 	},
-	"Heartstopper": {
-		price: 75,
-		items: ["Heartstopper"],
+	"Dirty Fries": {
+		price: 80,
+		items: ["Dirty Fries"],
 	},
-	"Money Shot": {
-		price: 500,
-		items: ["Money Shot"],
+	"Heart Attack": {
+		price: 80,
+		items: ["Heart Attack"],
 	},
-	"KnuckleSandwich": {
-		price: 150,
-		items: ["KnuckleSandwich"],
+	"Chicken Wings": {
+		price: 80,
+		items: ["Chicken Wings"],
 	},
-	"Chicken Wraps": {
-		price: 150,
-		items: ["Chicken Wraps"],
-	},
-	"Buttermilk Chicken": {
-		price: 150,
-		items: ["Buttermilk Chicken"],
-	},
-	"Bleeder": {
-		price: 100,
-		items: ["Bleeder"],
-	},
-	"Oatmeal": {
-		price: 50,
-		items: ["Oatmeal"],
-	},
-	"Drinks:": {
+	"Medkit, Drinks and Cigs": {
 		header: true,
 	},
-	"Soda": {
-		price: 45,
-		items: ["Soda"]
+	"Whiskey Tincture": {
+		price: 70,
+		items: ["Whiskey Tincture"],
 	},
-	"Milkshake": {
-		price: 48,
-		items: ["Milkshake"],
+	"Sweet Tea": {
+		price: 80,
+		items: ["Sweet Tea"],
 	},
-	"Copium": {
-		price: 100,
-		items: ["Copium"],
+	"Root Beer": {
+		price: 70,
+		items: ["Root Beer"],
 	},
-	"Orange Juice": {
-	   	price: 45,
-	   	max: 5,
-	   	noDiscount: false,
-	   	lastItem: false,
-	   	items: ["Orange Juice"],
-   	},
-   	"Lemonade": {
-	  	price: 45,
-	 	max: 5,
-	  	noDiscount: false,
-	  	lastItem: false,
-	  	items: ["Lemonade"],
-  	},
-	"Iced Tea": {
-	  	price: 45,
-	 	max: 5,
-	  	items: ["Iced Tea"],
-  	},
-	"Sides:": {
+	"Beer": {
+		price: 60,
+		items: ["Beer"],
+	},
+	"Whiskey": {
+		price: 60,
+		items: ["Whiskey"],
+	},
+	"Vodka": {
+		price: 60,
+		items: ["Vodka"],
+	},
+	"Cigarettes": {
+		price: 60,
+		items: ["Cigarettes"],
+	},
+	"Apparel": {
 		header: true,
-
 	},
-	"Fries": {
-		price: 55,
-		items: ["Fries"],
-	},
-  	"Lucky Rings": {
-	  	price: 100,
-	  	noDiscount: false,
-	  	lastItem: false,
-	  	items: ["Lucky Rings"],
-	},
-  	"Mozz Sticks": {
-	  	price: 55,
-	  	noDiscount: false,
-	  	lastItem: false,
-	  	items: ["Mozz sticks"],
- 	
-	},
-	"Bacon": {
-		price: 50,
-		items: ["Bacon"],
-	},
-	 "Bloody Fingers": {
-		price: 40,
-		max: 5,
-		noDiscount: false,
-		lastItem: false,
-		items: ["Bloody Fingers"],
-	},
-	"Salad": {
-	   	price: 55,
-	   	max: 5,
-	   	noDiscount: false,
-	   	lastItem: false,
-	  	items: ["Salad"],
-	},
-	"Desserts(toys are no longer being sold indivdually):": {
-		header: true,
-  	},
-	"Rimjob": {
-		price: 45,
-		items: ["Rimjob"],
-	},
-	"Cream Pie": {
-		price: 33,
-		items: ["Cream Pie"],
-	},
-	"Ice Cream": {
-		price: 33,
-		items: ["Ice Cream"],
+	"Plushie": {
+		price: 70,
+		items: ["Plushie"],
 	},
 };
 const INDIVIDUAL_ITEMS = [
-	"Murder Meal", "Heartstopper", "Money Shot", "KnuckleSandwich", "Torpedo", "Bleeder", "Water", "Meat Free", "Chicken Wraps", "Buttermilk Chicken", 
-	"Fries", "Soda", "Rimjob", "Cream Pie", "Milkshake", "Toy", "Bloody Fingers", "Salad", "Orange Juice", "Lemonade", "Lucky Rings", "Iced Tea", "Mozz sticks", "Copium", "Bacon", "Oatmeal", "Ice Cream"
+	"Dirty Fries", "Heart Attack", "Chicken Wings", "Whiskey Tincture", "Sweet Tea", "Root Beer", "Cigarettes",
+	"Plushie", "Beer", "Whiskey", "Vodka",
 ];
 
 const buttons = {
@@ -293,17 +153,6 @@ const Signs = {
 
 const discounts = {
 	
-	"half_off": {
-		percent: .50,
-		desc: '50% Discount (PD, EMS, BS Employees...)',
-	},
-	"five_percent": {
-		percent: .05,
-		desc: '5% Discount (<font color="red">LIMITED TIME</font>)',
-	},
-	"blackout": {
-		percent: .15,
-		desc: 'Blackout Sale (15% off)',
 	},
 };
 
