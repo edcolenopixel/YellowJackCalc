@@ -13,7 +13,7 @@ const Menu = {
 	"Combos:": {
 		header: true,
 	},
-	"HeartAttack Combo": {
+	"HeartAttack": {
 		price: 230,
 		items: ["Dirty Fries", "Heart Attack", "Root Beer"],
 	},
