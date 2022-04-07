@@ -69,14 +69,14 @@ const Menu = {
 		items: ["Vodka"],
 	},
 	"Cigarettes": {
-		price: 60,
+		price: 100,
 		items: ["Cigarettes"],
 	},
 	"Apparel": {
 		header: true,
 	},
 	"Plushie": {
-		price: 70,
+		price: 1000,
 		items: ["Plushie"],
 	},
 };
