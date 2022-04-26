@@ -29,6 +29,18 @@ const Menu = {
 	"Food": {
 		header: true,
 	},
+	"Twatterbeef Popcorn": {
+		price: 90,
+		items: ["Twatterbeef Popcorn"],
+	},
+	"Deez Nuts": {
+		price: 90,
+		items: ["Deez Nuts"],
+	},
+	"Roastpork Sandwich": {
+		price: 80,
+		items: ["Roastpork Sandwich"],
+	},
 	"Dirty Fries": {
 		price: 80,
 		items: ["Dirty Fries"],
@@ -82,7 +94,7 @@ const Menu = {
 };
 const INDIVIDUAL_ITEMS = [
 	"Dirty Fries", "Heart Attack", "Chicken Wings", "Whiskey Tincture", "Sweet Tea", "Root Beer", "Cigarettes",
-	"Plushie", "Beer", "Whiskey", "Vodka",
+	"Plushie", "Beer", "Whiskey", "Vodka", "Twatterbeef Popcorn", "Deez Nuts", "Roastpork Sandwich",
 ];
 
 const buttons = {
